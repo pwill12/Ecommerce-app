@@ -1,0 +1,12 @@
+{
+    "emmet.includeLanguages": {
+        "\"javascript\"": "\"javascriptreact\""
+    },
+    "emmet.showSuggestionsAsSnippets": false,
+    "reactSnippets.settings.prettierEnabled": true,
+    "css.completion.completePropertyWithSemicolon": true,
+    "files.associations": {
+        "*.jsx": "javascriptreact"
+    },
+    "files.autoGuessEncoding": true
+}
