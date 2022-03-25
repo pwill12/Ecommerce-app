@@ -9,7 +9,6 @@ const Container = styled.div`
   width:100%;
   height:100vh;
   display:flex;
-  padding:15px 0px;
   background-color: white;
   position:relative;
   overflow:hidden;
@@ -53,12 +52,12 @@ const Slide = styled.div`
 `
 const ImgContainer = styled.div`
   flex: 1;
-  height:100%;
+  height:80%;
   text-align:center;
 `
 
 const Image = styled.img`
-  height:85%;
+  height:100%;
 `
 
 const InfoContainer = styled.div`

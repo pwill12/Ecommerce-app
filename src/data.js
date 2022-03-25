@@ -9,7 +9,7 @@ export const sliderItems = [
 
     {
         id: 2,
-        img: './playstation/dfdd.jpg',
+        img: './playstation/Mattgstyle.jfif',
         Title: 'Sumer sales',
         Description: 'bdshgjkjvbhx bvgasgx v ghsdxvgfbn xdsg',
         bg: 'red'
@@ -21,5 +21,18 @@ export const sliderItems = [
         Title: 'exclusive sales',
         Description: 'bdshgjkjvbhx bvgasgx v ghsdxvgfbn xdsg',
         bg: 'blue'
+    }
+]
+
+export const mycategories = [
+    {
+        id: 1,
+        img: './playstation/cc24004b-3648-459a-a427-92b968bd416b.jpg',
+        title: 'working jacket'
+    },
+    {
+        id: 1,
+        img: './playstation/uuyu-min.jpg',
+        title: 'home work'
     }
 ]

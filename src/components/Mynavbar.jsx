@@ -8,6 +8,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   font-size: 1.5em;
+  ${'' /* padding:10px 20px; */}
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
