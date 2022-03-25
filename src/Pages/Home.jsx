@@ -8,8 +8,7 @@ import React from "react";
 import Mynavbar from "../components/Mynavbar";
 import Announcement from "../components/Announcement";
 import Slider from '../components/Slider'
-import Mycart from "../components/Mycart";
-// import CategoriesItem from "../components/CategoriesItem";
+import Categories from "../components/Categories";
 
 function Home() {
   return (
@@ -17,9 +16,7 @@ function Home() {
       <Announcement />
       <Mynavbar />
       <Slider />
-      <Mycart />
-
-      {/* <CategoriesItem /> */}
+      <Categories />
       {/* <h1>hello</h1> */}
     </div>
   )

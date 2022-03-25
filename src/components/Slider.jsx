@@ -7,7 +7,7 @@ import {sliderItems} from '../data'
 
 const Container = styled.div`
   width:100%;
-  height:100vh;
+  height:100%;
   display:flex;
   background-color: white;
   position:relative;
@@ -47,7 +47,7 @@ const Slide = styled.div`
   display:flex;
   align-items:center;
   width:100vw;
-  height:100vh;
+  height:80vh;
   background-color: ${props=>props.bg};
 `
 const ImgContainer = styled.div`

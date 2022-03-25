@@ -1,17 +1,15 @@
 import styled from 'styled-components'
 
-const Container = styled.components`
+const Container = styled.div`
   font-size:20px;
 
 `
 
 const CategoriesItem = () => {
     return (
-        <div>
         <Container>
             hello
         </Container>
-        </div>
     )
 }
 

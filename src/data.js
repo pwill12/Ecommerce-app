@@ -31,8 +31,13 @@ export const mycategories = [
         title: 'working jacket'
     },
     {
-        id: 1,
+        id: 2,
         img: './playstation/uuyu-min.jpg',
         title: 'home work'
+    },
+    {
+        id: 3,
+        img: './playstation/uuyu-min.jpg',
+        title: 'junior work'
     }
 ]
