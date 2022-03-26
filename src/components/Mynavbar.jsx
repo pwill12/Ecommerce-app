@@ -8,12 +8,15 @@ import styled from "styled-components";
 
 const Container = styled.div`
   font-size: 1.5em;
+  ${'' /* background: hsl(210, 36%, 96%); */}
   ${'' /* padding:10px 20px; */}
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
+  background: hsl(210, 36%, 96%);
+
 `;
 const Left = styled.div`
   flex: 1;
@@ -76,7 +79,7 @@ function Mynavbar() {
           <MenuItems>Register</MenuItems>
           <MenuItems>Sign In</MenuItems>
           <MenuItems>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={4} color="secondary">
               <AddShoppingCartOutlined color="action" />
             </Badge>
           </MenuItems>

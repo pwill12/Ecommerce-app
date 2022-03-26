@@ -20,7 +20,7 @@ export const sliderItems = [
         img: './playstation/sad.jpg',
         Title: 'exclusive sales',
         Description: 'bdshgjkjvbhx bvgasgx v ghsdxvgfbn xdsg',
-        bg: 'blue'
+        bg: 'hsl(205, 90%, 88%)'
     }
 ]
 

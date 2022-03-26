@@ -8,7 +8,7 @@ import styled from 'styled-components'
 const Container = styled.div`
   padding:10px 20px;
   display: flex;
-  justify-content: space-between;;
+  justify-content: space-between;
 
 `
 
