@@ -15,7 +15,7 @@ const Container = styled.div`
 function Categories() {
     return (
            <Container>
-               {mycategories.map((props) => (<CategoriesItem item={props}/>))}
+               {mycategories.map((props) => (<CategoriesItem item={props} key={props.id}/>))}
            </Container>
     )
 }

@@ -9,6 +9,8 @@ import Mynavbar from "../components/Mynavbar";
 import Announcement from "../components/Announcement";
 import Slider from '../components/Slider'
 import Categories from "../components/Categories";
+import { Products } from "../components/Products";
+
 
 function Home() {
   return (
@@ -17,6 +19,7 @@ function Home() {
       <Mynavbar />
       <Slider />
       <Categories />
+      <Products />
       {/* <h1>hello</h1> */}
     </div>
   )
