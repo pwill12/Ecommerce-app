@@ -41,3 +41,21 @@ export const mycategories = [
         title: 'junior work'
     }
 ]
+
+export const popularproducts = [
+    {
+        id: 1,
+        img: './playstation/cc24004b-3648-459a-a427-92b968bd416b.jpg',
+        title: 'working jacket'
+    },
+    {
+        id: 2,
+        img: './playstation/uuyu-min.jpg',
+        title: 'home work'
+    },
+    {
+        id: 3,
+        img: './playstation/uuyu-min.jpg',
+        title: 'junior work'
+    }
+]
