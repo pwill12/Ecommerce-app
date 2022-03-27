@@ -45,7 +45,7 @@ export const mycategories = [
 export const popularproducts = [
     {
         id: 1,
-        img: './playstation/cc24004b-3648-459a-a427-92b968bd416b.jpg',
+        img: './playstation/uuu.png',
         title: 'working jacket'
     },
     {
@@ -55,7 +55,13 @@ export const popularproducts = [
     },
     {
         id: 3,
-        img: './playstation/uuyu-min.jpg',
+        img: './playstation/xcc-min.png',
+        title: 'junior work'
+    },
+
+    {
+        id: 4,
+        img: './playstation/xcc-min1.png',
         title: 'junior work'
     }
 ]
