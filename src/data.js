@@ -45,12 +45,12 @@ export const mycategories = [
 export const popularproducts = [
     {
         id: 1,
-        img: './playstation/uuu.png',
+        img: './playstation/xcxcxcxc-min.png',
         title: 'working jacket'
     },
     {
         id: 2,
-        img: './playstation/uuyu-min.jpg',
+        img: './playstation/xcc-min.png',
         title: 'home work'
     },
     {
@@ -63,5 +63,30 @@ export const popularproducts = [
         id: 4,
         img: './playstation/xcc-min1.png',
         title: 'junior work'
-    }
+    },
+    {
+        id: 5,
+        img: './playstation/xcc-min1.png',
+        title: 'junior work'
+    },
+    {
+        id: 6,
+        img: './playstation/xcc-min1.png',
+        title: 'junior work'
+    },
+    {
+        id: 7,
+        img: './playstation/xcc-min1.png',
+        title: 'junior work'
+    },
+    {
+        id: 8,
+        img: './playstation/xcc-min1.png',
+        title: 'junior work'
+    },
+    {
+        id: 9,
+        img: './playstation/xcc-min1.png',
+        title: 'junior work'
+    },
 ]
