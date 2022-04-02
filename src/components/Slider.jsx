@@ -47,13 +47,13 @@ const Slide = styled.div`
   display:flex;
   align-items:center;
   width:100vw;
-  height:80vh;
+  height:85vh;
   background-color: ${props=>props.bg};
 `
 const ImgContainer = styled.div`
   flex: 1;
-  height:80%;
-  text-align:center;
+  height: 90%;
+  text-align: center;
 `
 
 const Image = styled.img`
@@ -112,7 +112,7 @@ function Slider() {
                   <Description>{item.Description}</Description>
                   <Button>show more</Button>
                 </InfoContainer>
-                </Slide>
+              </Slide>
             ))}
             </Wrapper>
             <Arrow direction='right' onClick={() => handleClick('right')}>

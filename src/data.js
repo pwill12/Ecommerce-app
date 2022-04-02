@@ -1,10 +1,10 @@
 export const sliderItems = [
     {
         id: 1,
-        img: './playstation/dff.jpg',
+        img: './playstation/engin-akyurt-ehdI_89nzMo-unsplash.jpg',
         Title: 'winter sales',
         Description: 'bdshgjkjvbhx bvgasgx v ghsdxvgfbn xdsg',
-        bg: 'rgb(120, 201, 220)'
+        bg: 'white'
     },
 
     {
@@ -45,28 +45,28 @@ export const mycategories = [
 export const popularproducts = [
     {
         id: 1,
-        img: './playstation/xcxcxcxc-min.png',
+        img: './playstation/colored.jpg',
         title: 'working jacket'
     },
     {
         id: 2,
-        img: './playstation/xcc-min.png',
+        img: './playstation/mediamodifier-elbKS4DY21g-unsplash.jpg',
         title: 'home work'
     },
     {
         id: 3,
-        img: './playstation/xcc-min.png',
+        img: './playstation/mediamodifier-kJXGTOY1wLQ-unsplash.jpg',
         title: 'junior work'
     },
 
     {
         id: 4,
-        img: './playstation/xcc-min1.png',
+        img: './playstation/tobias-tullius-Fg15LdqpWrs-unsplash.jpg',
         title: 'junior work'
     },
     {
         id: 5,
-        img: './playstation/xcc-min1.png',
+        img: './playstation/sarah-dorweiler-gUPiTDBdRe4-unsplash.jpg',
         title: 'junior work'
     },
     {
@@ -83,10 +83,5 @@ export const popularproducts = [
         id: 8,
         img: './playstation/xcc-min1.png',
         title: 'junior work'
-    },
-    {
-        id: 9,
-        img: './playstation/xcc-min1.png',
-        title: 'junior work'
-    },
+    }
 ]

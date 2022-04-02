@@ -15,7 +15,6 @@ const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
-  background: hsl(210, 36%, 96%);
 
 `;
 const Left = styled.div`
