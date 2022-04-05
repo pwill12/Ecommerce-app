@@ -10,10 +10,12 @@ const Container = styled.div`
   flex-wrap:wrap;
 `
 
-export const Products = () => {
-  return (
-    <Container>
-        {popularproducts.map((item) => <Product item={item} key={item.id}/>)}
-    </Container>
-  )
+function Products() {
+    return (
+        <Container>
+            {popularproducts.map((item) => <Product item={item} key={item.id}/>)}
+        </Container>
+      )
 }
+
+export default Products

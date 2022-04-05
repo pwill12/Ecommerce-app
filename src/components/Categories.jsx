@@ -4,11 +4,16 @@ import {mycategories} from '../data'
 
 import styled from 'styled-components'
 
+import { Mobile } from '../Responsive'
+
 
 const Container = styled.div`
   padding:10px 20px;
   display: flex;
   justify-content: space-between;
+  ${Mobile({ padding: '0px', flexDirection: 'column' })}
+
+
 
 `
 

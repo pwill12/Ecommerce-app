@@ -38,6 +38,7 @@ const Container = styled.div`
       opacity: 1;
   }
 
+
 `
 
 const Circle = styled.div`

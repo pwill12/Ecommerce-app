@@ -1,10 +1,13 @@
 import { EmailOutlined, Facebook, Instagram, Phone, Pinterest, Room, Twitter } from "@material-ui/icons";
 import styled from "styled-components";
+import { Mobile } from "../Responsive";
 
 const Container = styled.div`
 
   padding:20px;
   display:flex;
+  ${Mobile({ flexDirection: "column" })}
+
 `;
 const Left = styled.div`
   display: flex;
@@ -44,6 +47,8 @@ const Center = styled.div`
   flex: 1;
   padding: 20px;
   justify-content: center;
+  ${Mobile({ display: "none" })}
+
 
 `;
 

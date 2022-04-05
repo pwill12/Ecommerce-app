@@ -1,6 +1,8 @@
 import { InsertEmoticon } from '@material-ui/icons'
 import styled from 'styled-components'
 
+import { Mobile } from '../Responsive'
+
 const Container = styled.div`
   font-size:20px;
   ${'' /* flex: 1; */}
@@ -15,13 +17,15 @@ const Image = styled.img`
   width:100%;
   height:100%;
   object-fit:cover;
+  ${'' /* ${Mobile({ height: "50vh" })} */}
+  
 
 `
 const Info = styled.div`
   position:absolute;
   width:100%;
   height:100%;
-  top:0;
+  top: 0;
   bottom:0;
   display: flex;
   flex-direction: column;
