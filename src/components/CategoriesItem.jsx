@@ -1,4 +1,5 @@
 import { InsertEmoticon } from '@material-ui/icons'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 import { Mobile } from '../Responsive'
@@ -48,11 +49,13 @@ const Button = styled.button`
 const CategoriesItem = ({item}) => {
     return (
         <Container>
+        <Link to={'/ProductList/'+item.cat}>
             <Image src={item.img}/>
             <Info>
                 <Title>{item.title}</Title>
                 <Button>shop now</Button>
             </Info>
+        </Link>
         </Container>
     )
 }
